@@ -27,12 +27,14 @@ const cartrout = require('./routes/cart_rout');
 const user = require('./routes/user_rout');
 const favourite = require('./routes/favourite_rout');
 const story = require('./routes/story_rout');
+const banner = require('./routes/banner_rout');
 
 app.use('/api/products', router);
 app.use('/api/cart', cartrout);
 app.use('/api/users', user);
 app.use('/api/favourite', favourite);
 app.use('/api/story', story);
+app.use('/api/banners', banner);
 
 
 
